@@ -5,7 +5,7 @@
     "cm_set_path": "",
     "cleanup_pause": "",
     "iso_url": "http://cdimage.debian.org/cdimage/release/7.5.0/amd64/iso-dvd/debian-7.5.0-amd64-DVD-1.iso",
-    "iso_checksum": "efbd5a9d41437f6ea2f16d6743bb9d4a21502897",
+    "iso_checksum": "8738ef91931dc837ba5c6e481f98d63a7f01b101",
     "iso_checksum_type": "sha1"
   },
   "builders": [{
@@ -25,9 +25,9 @@
       "install",
       " auto",
       " url=http://{{ .HTTPIP }}:{{ .HTTPPort }}/preseed.cfg",
-      " debian-installer=en_US",
-      " locale=en_US",
-      " keymap=us",
+      " debian-installer=en_AU",
+      " locale=en_AU",
+      " keymap=gb",
       " netcfg/get_hostname=vagrant",
       " netcfg/get_domain=vm ",
       "<enter>"
